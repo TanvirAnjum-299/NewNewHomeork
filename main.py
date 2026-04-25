@@ -1,7 +1,3 @@
-number=int(input("Enter Number To Be Checked: "))
-if number>0:
-    print("This is a Natural Number")
-elif number<0:
-    print("This is a Negative Number")
-else:
-    print("This is 0")
+n=int(input("Enter the number of terms: "))
+for i in range(1, n+1):
+    print(i**i, end=" ")
